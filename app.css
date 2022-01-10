@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logo {
+  position: relative;
+  top: 0;
+  left: -550px;
+}
+.maldive {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1360px;
+  height: auto;
+}
+#box {
+  position: relative;
+  border-radius: 60px;
+  background-color: #ebebe0;
+  padding: 20px;
+  width: 500px;
+  height: 400px;
+  top: -100px;
+  left: 420px;
+}
+.signin {
+  left: -130px;
+  position: relative;
+  border-radius: 25px;
+  height: 33px;
+  font-size: 17px;
+  font-family: tahoma;
+  font-weight: 550;
+  margin-top: 25px;
+  margin-left: 35px;
+  background-color: #d3d3d3;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.signin:focus {
+  background-color: #33ffcc;
+  border: 2px solid #4caf50;
+  outline: 0;
+}
+.signup {
+  left: -110px;
+  position: relative;
+  border-radius: 25px;
+  height: 33px;
+  font-size: 17px;
+  font-family: tahoma;
+  font-weight: 550;
+  margin-top: 25px;
+  margin-left: 35px;
+  background-color: #d3d3d3;
+  margin-left: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.signup:focus {
+  background-color: #33ffcc;
+  border: 2px solid #4caf50;
+  outline: 0;
+}
+.span {
+  margin-right: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+.form {
+  position: relative;
+  top: -500px;
+  left: 440px;
+  margin-top: 110px;
+  margin-left: 35px;
+}
+#email {
+  border-radius: 60px;
+  width: 33%;
+  height: 30px;
+  margin-left: 2px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #d6d6c2;
+  border: none;
+  outline: 0;
+}
+#password {
+  border-radius: 60px;
+  width: 33%;
+  height: 30px;
+  margin-left: 2px;
+  margin-top: 12px;
+  background-color: #d6d6c2;
+  border: none;
+  outline: 0;
+}
+.login {
+  position: relative;
+  border-radius: 25px;
+  height: 30px;
+  font-size: 15px;
+  margin: 3px 3px 3px 3px;
+  background-color: #33ffcc;
+  margin-left: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 42px;
+  outline: 0;
+  cursor: pointer;
+}
+.forgot {
+  position: relative;
+  background-color: #ebebe0;
+  top: 0px;
+  left: 0px;
+  border: none;
+  width: 150px;
+  height: 42px;
+  outline: 0;
+}
+#message {
+  position: relative;
+}
+#content {
+  position: relative;
+}
+.input {
+  position: relative;
+  top: 450px;
+  left: -450px;
+  padding-right: 300px;
+}
+.label1 {
+  position: relative;
+  top: 450px;
+  left: -620px;
+}
+.label2 {
+  position: relative;
+  top: 450px;
+  left: -640px;
+}

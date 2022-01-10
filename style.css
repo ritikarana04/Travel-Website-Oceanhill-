@@ -1,0 +1,130 @@
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+body::after {
+content: "";
+background: url("maldives.jpg");
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: -1;
+background-size: cover;
+
+}
+#formbg {
+height: 600px;
+width: 523px;
+border-radius: 70px;
+background-color: #ECEAEE;
+box-shadow: 0 0 89px 0 rgba(0,0,0,0.24);
+margin-left: 500px;
+margin-top: -120px;
+}
+form {
+position: absolute;
+left: 580px;
+top: 200;
+}
+.compul:after {
+  content:" *";
+  color: red;
+}
+label{
+height: 24px;
+width: 80px;
+color: #0D0C0C;
+font-family: Arial;
+font-size: 15px;
+font-weight: 700;
+line-height: 17px;
+}
+.roundinput {
+height: 36px;
+width: 180px;
+border-radius: 60px;
+background-color: #D3D3D3;
+margin-top:10px;
+border-style: hidden;
+border-color: red;
+}
+.roundinputimp {
+height: 36px;
+width: 180px;
+border-radius: 60px;
+background-color: #D3D3D3;
+margin-top:10px;
+border-style: hidden;
+border-color: red;
+}
+.register{
+height: 42px;
+width: 168px;
+border-radius: 50px;
+background-color: #55DFC3;
+margin-left: 100;
+ border-style: hidden;
+font-size: 15px;
+  font-family: Arial;
+    font-weight: 700;
+}
+input[value=*]{
+height: 23px;
+width: 170px;
+opacity: 0.45;
+  color: #F90;
+font-family: Arial;
+font-size: 15px;
+line-height: 17px;
+}
+.formuppertabssingin{
+position: absolute;
+left: 610px;
+top: 130;
+height: 32.12px;
+width: 68px;
+color: #0B0A0A;
+font-family: Arial;
+font-size: 15px;
+font-weight: 700;
+line-height: 17px;
+}
+.formuppertabssignup{
+position: absolute;
+left: 720px;
+top: 120;
+height: 32.12px;
+width: 68px;
+color: #0B0A0A;
+font-family: Arial;
+font-size: 15px;
+font-weight: 700;
+line-height: 17px;
+}
+input[type=text] {
+height: 36px;
+width: 170px;
+opacity: 1;
+color: #0D0C0C;
+font-family: Arial;
+font-size: 15px;
+line-height: 17px;
+}
+#active-window {
+height: 42px;
+width: 110.47px;
+border-radius: 50px;
+background-color: #55DFC3;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+

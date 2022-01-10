@@ -1,0 +1,24 @@
+{
+    "name"                     : "IDM Integration Module",
+    "version"                  : "6.33.1",
+    "description"              : "Download files with Internet Download Manager",
+    "author"                   : "Tonec, Inc.",
+    "homepage_url"             : "http://www.internetdownloadmanager.com/",
+    "default_locale"           : "en",
+
+    "icons"                    : { "16": "images/dwnlLink.png", "48": "images/logoSmall.png", "128": "images/logoBig.png" },
+    "update_url"               : "https://clients2.google.com/service/update2/crx",
+
+    "background"               : { "scripts": [ "background.js" ], "persistent": true },
+    "content_scripts"          : [ { "js": [ "content.js" ], "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file:///*" ], "all_frames": true, "run_at": "document_start" } ],
+    "web_accessible_resources" : [ "document.js", "captured.html", "captured.js" ],
+    "externally_connectable"   : { "matches": [ "*://*.internetdownloadmanager.com/*", "*://*.tonec.com/*" ] },
+
+    "permissions"              : [ "<all_urls>", "tabs", "cookies", "contextMenus", "webNavigation", "webRequest", "webRequestBlocking", "downloads", "downloads.shelf", "management", "storage", "proxy", "nativeMessaging" ],
+    "optional_permissions"     : [ "alarms", "history", "identity", "idle", "notifications", "privacy", "clipboardRead", "system.display" ],
+    "browser_action"           : { "default_icon": { "16": "images/dwnlLink.png" } },
+
+    "manifest_version"         : 2,
+    "minimum_chrome_version"   : "32.0",
+    "offline_enabled"          : false
+}
